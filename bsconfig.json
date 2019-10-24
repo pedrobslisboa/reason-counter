@@ -1,0 +1,18 @@
+
+{
+  "name": "react-hooks-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": {
+    "dir" : "src"
+  },
+  "package-specs": [{
+    "module": "commonjs"
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["bs-webapi", "bs-css"],
+  "refmt": 3
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReasonReact Examples</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<style>
+  * {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+    outline: none;
+}
+</style>
+<body>
+  <main>
+    <div class="counter">
+      <div id="display">
+        0
+      </div>
+      <div class="buttons">
+          <button type="button" id="increase">+</button>
+          <button type="button" id="decrease">-</button>
+      </div>
+      <div id="clear">
+          <button type="button">Clear</button>
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
